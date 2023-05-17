@@ -1,0 +1,25 @@
+mat-grid-tile {
+    background: rgb(255, 255, 255);
+  }
+
+
+  .mat-card {
+    margin-bottom: 10px !important;
+  }
+  
+  img {
+    max-width: 150px;
+    height: auto;
+  }
+  .contenedor-imagen{
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .content {
+    padding: 16px;
+  }
+  
+  .content > mat-card {
+    width: 200px;
+  }

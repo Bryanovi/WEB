@@ -1,0 +1,11 @@
+<stp-container>
+ 
+    <stp-table [data]="data" [metaDataColumns]="metaDataColumns">
+        <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef></th>
+            <td mat-cell *matCellDef="let row" class="align-right">   
+            </td>
+        </ng-container>
+    </stp-table>
+
+</stp-container>

@@ -1,0 +1,15 @@
+<mat-nav-list>
+
+    <div >
+        <mat-list-item *ngFor="let menu of listaMenu">
+            <a [routerLink]="menu.url">
+                
+                    <mat-icon color="">{{menu.icon}}</mat-icon>
+                    <span>{{menu.title}}</span>
+                
+            </a>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+    </div>
+
+  </mat-nav-list>
